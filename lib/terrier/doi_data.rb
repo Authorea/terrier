@@ -25,8 +25,10 @@ class Terrier::DoiData
     self.class.get("http://dx.doi.org/#{doi}", headers: bibliography_header)
     .strip
     .force_encoding("utf-8")
+    .gsub(/(https?:\/\/[\S]+)/, '<a href="\0">\0</a>')
     .gsub(/(doi:[^\s|<|>]+)/, '<a href="\0">\0</a>')
     .gsub('="doi:', '="https://doi.org/')
+
   end
 
   def doi_citation_info
