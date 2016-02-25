@@ -6,8 +6,8 @@ require 'terrier/version'
 Gem::Specification.new do |spec|
   spec.name          = "terrier"
   spec.version       = Terrier::VERSION
-  spec.authors       = ["Matthew Bergman", "Winnower"]
-  spec.email         = ["mzbphoto@gmail.com"]
+  spec.authors       = ["Matthew Bergman", "The Winnower"]
+  spec.email         = ["matthew.z.bergman@gmail.com"]
   spec.summary       = %q{Terrier: Import Doi and Zenodo Papers}
   spec.description   = %q{Terrier is used to retrieve metadata of scholarly works from a variety of sources.  Terrier can be used to pull metadata on any article that has been issued a digital object identifier (DOI) or that is hosted on the Zenodo Repository, maintained by CERN.}
   spec.homepage      = ""
