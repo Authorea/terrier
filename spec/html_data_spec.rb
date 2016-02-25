@@ -21,7 +21,6 @@ describe Terrier::HtmlData do
     end
 
     it "returns a collection containing the journal meta tags if they exist" do
-      pending("need zendo with journal meta tags")
       expect(Terrier::HtmlData.new('https://zenodo.org/record/46077?ln=en').data[:journal]).to eq(nil)
     end
 
@@ -47,7 +46,6 @@ describe Terrier::HtmlData do
 
 
     it "returns a collection containing the issn" do
-      pending("need zendo with isn")
       expect(Terrier::HtmlData.new('https://zenodo.org/record/46077?ln=en').data[:issn]).to eq(nil)
     end
 

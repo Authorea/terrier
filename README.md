@@ -1,5 +1,7 @@
 # Terrier
 
+[![Gem Version](https://badge.fury.io/rb/terrier.svg)](http://badge.fury.io/rb/terrier) [![Build Status](https://secure.travis-ci.org/winnower/terrier.svg?branch=master)](http://travis-ci.org/winnower/terrier)
+
 TODO: Write a gem description
 
 ## Installation
