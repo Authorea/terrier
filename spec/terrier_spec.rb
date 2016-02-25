@@ -57,12 +57,12 @@ describe Terrier do
           url: "http://www.example.com/paper/path",
           journal: "The Winnower",
           publication_date: "2015/07/09",
-          title: "When Publishers Aren’t Getting It Done",
+          title: "When Publishers Aren't getting it done.",
           authors: ["Neil  Christensen", "Stacy  Konkiel", "Martin Paul Eve", "Joshua Nicholson", "Lenny  Teytelman"],
           doi: "12345/winn.12345",
           issn: nil,
           zenodo_pdf: "https://zenodo.org/record/22796/files/14th_South_African_Congress_on_Biochemistry_and_Molecular_Biology.pdf",
-          bibliography: "Neil  Christensen, Stacy  Konkiel, Martin Paul Eve, Joshua Nicholson, Lenny  Teytelman. (2015/07/09). When Publishers Aren’t Getting It Done. The Winnower. DOI: 12345/winn.12345"
+          bibliography: "Neil  Christensen, Stacy  Konkiel, Martin Paul Eve, Joshua Nicholson, Lenny  Teytelman. (2015/07/09). When Publishers Aren't Getting It Done. The Winnower. DOI: 12345/winn.12345"
         }
         allow_any_instance_of(Terrier::HtmlData).to receive(:data).and_return(http_data)
 
@@ -73,7 +73,7 @@ describe Terrier do
           publication_year: 2014,
           title: "The R-Factor: A Measure of Scientific Veracity",
           authors: ["Joshua Nicholson", "Yuri Lazebnik"],
-          bibliography: "Neil  Christensen, Stacy  Konkiel, Martin Paul Eve, Joshua Nicholson, Lenny  Teytelman. (2015/07/09). When Publishers Aren’t Getting It Done. The Winnower. DOI: 12345/winn.12345"
+          bibliography: "Neil  Christensen, Stacy  Konkiel, Martin Paul Eve, Joshua Nicholson, Lenny  Teytelman. (2015/07/09). When Publishers Aren't Getting It Done. The Winnower. DOI: 12345/winn.12345"
         }
 
         allow_any_instance_of(Terrier::DoiData).to receive(:data).and_return(doi_data)
