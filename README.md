@@ -1,6 +1,6 @@
 # Terrier
 
-[![Gem Version](https://badge.fury.io/rb/terrier.svg)](http://badge.fury.io/rb/terrier) [![Build Status](https://secure.travis-ci.org/thewinnower/terrier.svg?branch=master)](http://travis-ci.org/thewinnower/terrier)
+[![Gem Version](https://badge.fury.io/rb/terrier.svg)](http://badge.fury.io/rb/terrier) [![Build Status](https://travis-ci.org/thewinnower/Terrier.svg?branch=master)](https://travis-ci.org/thewinnower/Terrier)
 
 Terrier is used to retrieve metadata of scholarly works from a variety of sources.
 
