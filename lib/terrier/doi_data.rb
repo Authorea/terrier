@@ -10,7 +10,7 @@ class Terrier::DoiData
     @citation_info = doi_citation_info
     {
       url: citation_info["URL"],
-      journal: citation_info["publisher"],
+      journal: citation_info["container-title"],
       title: citation_info["title"],
       authors: authors,
       publication_year: publication_year,
