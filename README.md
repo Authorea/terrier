@@ -6,7 +6,7 @@ Terrier is used to retrieve metadata of scholarly works from a variety of source
 
 Terrier can be used to pull metadata on any article that has been issued a digital object identifier (DOI) or that is hosted on the Zenodo Repository, maintained by CERN.
 
-With Terrier you can enter any scholarly article URL or DOI to retrieve scholarly information about that article.  Terrier will pull full PDFs of scholarly content if it is hosted on the Zenodo repository.  The production of Terrier was funded by [OpenAire](https://www.openaire.eu/openaire-open-peer-review-tenders) and developed by [The Winnower](thewinnower.com)
+With Terrier you can enter any scholarly article URL or DOI to retrieve scholarly information about that article.  Terrier will pull full PDFs of scholarly content if it is hosted on the Zenodo repository.  The production of Terrier was funded by [OpenAire](https://www.openaire.eu/openaire-open-peer-review-tenders) and developed by [The Winnower](https://thewinnower.com)
 
 
 ## Installation
