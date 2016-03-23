@@ -11,6 +11,7 @@ class Terrier::DoiData
     {
       url: citation_info["URL"],
       journal: citation_info["container-title"],
+      publisher: citation_info["publisher"],
       title: citation_info["title"],
       authors: authors,
       publication_year: publication_year,
