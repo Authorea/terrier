@@ -67,7 +67,7 @@ describe Terrier do
         allow_any_instance_of(Terrier::HtmlData).to receive(:data).and_return(http_data)
 
         doi_data = {
-          url: "http://dx.doi.org/10.15200/winn.140832.20404",
+          url: "https://doi.org/10.15200/winn.140832.20404",
           issn: ["2373-146X"],
           journal: "The Winnower, LLC",
           publication_year: 2014,

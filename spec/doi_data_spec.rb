@@ -13,7 +13,7 @@ describe Terrier::DoiData do
   describe 'data' do
     use_vcr_cassette
     it "returns a collection containing the a url" do
-      expect(Terrier::DoiData.new('doi:10.1186/1479-5868-10-79').data[:url]).to eq('http://dx.doi.org/10.1186/1479-5868-10-79')
+      expect(Terrier::DoiData.new('doi:10.1186/1479-5868-10-79').data[:url]).to eq('https://doi.org/10.1186/1479-5868-10-79')
     end
 
     it "returns a collection containing the journal name" do

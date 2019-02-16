@@ -23,7 +23,7 @@ class Terrier::DoiData
   private
 
   def bibliography
-    self.class.get("http://dx.doi.org/#{doi}", headers: bibliography_header)
+    self.class.get("https://doi.org/#{doi}", headers: bibliography_header)
     .strip
     .force_encoding("utf-8")
     .gsub(/(https?:\/\/[\S]+)/, '<a href="\0">\0</a>')
@@ -33,7 +33,7 @@ class Terrier::DoiData
   end
 
   def doi_citation_info
-    self.class.get("http://dx.doi.org/#{doi}", headers: citation_header, format: :json)
+    self.class.get("https://doi.org/#{doi}", headers: citation_header, format: :json)
   end
 
   def bibliography_header
