@@ -17,11 +17,11 @@ describe Terrier::DoiData do
     end
 
     it "returns a collection containing the journal name" do
-      expect(Terrier::DoiData.new('doi:10.1186/1479-5868-10-79').data[:journal]).to eq('Int J Behav Nutr Phys Act')
+      expect(Terrier::DoiData.new('doi:10.1186/1479-5868-10-79').data[:journal]).to eq('International Journal of Behavioral Nutrition and Physical Activity')
     end
 
     it "returns a collection containing the journal publisher" do
-      expect(Terrier::DoiData.new('doi:10.1186/1479-5868-10-79').data[:publisher]).to eq('Springer Science + Business Media')
+      expect(Terrier::DoiData.new('doi:10.1186/1479-5868-10-79').data[:publisher]).to eq('Springer Nature')
     end
 
     it "returns a collection containing the journal title" do
